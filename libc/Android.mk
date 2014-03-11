@@ -141,8 +141,6 @@ libc_common_src_files := \
 	bionic/strtotimeval.c \
 	bionic/system_properties.c \
 	bionic/system_properties_compat.c \
-	bionic/tcgetpgrp.c \
-	bionic/tcsetpgrp.c \
 	bionic/thread_atexit.c \
 	bionic/time64.c \
 	bionic/umount.c \
@@ -242,6 +240,7 @@ libc_bionic_src_files := \
     bionic/stubs.cpp \
     bionic/sysconf.cpp \
     bionic/tdestroy.cpp \
+    bionic/termios.cpp \
     bionic/tmpfile.cpp \
     bionic/wait.cpp \
     bionic/wchar.cpp \
